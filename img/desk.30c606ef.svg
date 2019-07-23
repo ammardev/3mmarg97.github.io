@@ -1,0 +1,132 @@
+<svg version="1.1" viewBox="0 0 500 260" width="500" height="260" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <filter id="steam-blur" x="-50%" y="-50%" width="500%" height="500%">
+        <feGaussianBlur in="SourceGraphic">
+            <animate attributeName="stdDeviation" begin="0s" dur="7s" from="2" repeatCount="indefinite" to="5"/>
+        </feGaussianBlur>
+    </filter>
+    <g id="table" transform="translate(.040995 1.8721)">
+        <path id="table-body" d="m0 232.93v16.918h21.203v6.4102h457.56l2e-3 -6.4102h21.15v-16.918z" style="fill:#e0e0e0"/>
+        <path id="table-shadow" d="m21.204 249.85 457.56-1e-5 1e-5 2.3139-457.56-1e-5z" style="opacity:.1"/>
+    </g>
+    <g id="monitor" transform="translate(.040995 1.8721)">
+        <path id="screen" d="m121.4 0 257.22 2.31e-5a8.2785 8.2857 89.7 0 1 8.2856 8.2785l-1e-3 158.32-273.79-2e-5 1e-3 -158.32a8.2785 8.2857 89.7 0 1 8.2857-8.2785z" style="fill:#535461;image-rendering:auto"/>
+        <g>
+            <g>
+                <path d="m209.86 192.33 80.283-0.0224-0.0193 30.56-80.283 0.0224z" style="fill:#bdbdbd"/>
+                <path d="m209.86 222.87 80.283-1e-5 -1-1.3424-78.283 1e-5z" style="fill:#aaaaaa"/>
+                <path d="m205.85 222.64 88.363 1e-5a4.2164 4.22 89.7 0 1 4.1685 4.2164l-6e-5 6.0674h-96.752l6e-5 -6.0674a4.2164 4.22 89.7 0 1 4.2201-4.2164z" style="fill:#bdbdbd"/>
+                <path d="m209.86 191.93 80.283 1e-5 -1 1.3424-78.283-1e-5z" style="fill:#aaaaaa"/>
+            </g>
+            <g>
+                <path d="m378.61 192.31-257.22-3e-5a8.2785 8.2857 89.7 0 1-8.2341-8.2785l1.1e-4 -17.431 273.79 3e-5 -1.2e-4 17.431a8.2785 8.2857 89.7 0 1-8.3372 8.2785z" style="fill:#bdbdbd"/>
+                <g id="domain">
+                    <text id="tld" transform="rotate(-.29973)" x="258.34726" y="185.37109" style="fill-opacity:.94118;fill:#48bb7f;font-family:sans-serif;font-size:12.654px;letter-spacing:0px;line-height:1.25;word-spacing:0px" xml:space="preserve">
+                <tspan x="258.34726" y="185.37109" style="font-family:Quicksand">.dev</tspan>
+              </text>
+                    <text id="name" transform="rotate(-.29973)" x="216.17432" y="185.37109" style="fill:#535461;font-family:sans-serif;font-size:12.654px;letter-spacing:0px;line-height:1.25;word-spacing:0px" xml:space="preserve">
+                <tspan x="216.17432" y="185.37109" style="fill:#535461;font-family:Quicksand">ammar</tspan>
+              </text>
+                </g>
+            </g>
+        </g>
+    </g>
+    <g id="coffee-cup-with-steam" transform="translate(.040995 1.8721)">
+        <path id="coffee-steam-left" d="m440.84 165.01s3.3554-13.365-4.7772-6.1162c-8.1326 7.2488-1.5924 18.122-0.45497 19.594 1.1374 1.4724 1.4786 6.2294-5.1184 8.8344s7.9815 14.698 13.318 1.3463-6.6068-14.711-2.9671-23.659z" filter="url(#steam-blur)" style="fill:#eaeaea">
+            <animateTransform attributeName="transform" begin="0s" dur="7s" from="0 0" repeatCount="indefinite" to="0 -60" type="translate"/>
+            <animate attributeName="opacity" begin="0s" dur="7s" from="0.5" repeatCount="indefinite" to="0"/>
+            <animate fill="freeze" attributeName="d" begin="0s" dur="3s" repeatCount="indefinite" values="                             m 440.83891,165.01203 c 0,0 3.3554,-13.36494 -4.77718,-6.11616 -8.13259,7.24878 -1.5924,18.12195 -0.45497,19.59436 1.13742,1.47241 1.47865,6.22942 -5.11841,8.83445 -6.59706,2.60503 7.9815,14.69843 13.31763,1.34632 5.33613,-13.35211 -6.60683,-14.71126 -2.96707,-23.65897 z;                             m 445.25833,166.60302 c 0.74062,-6.41867 0.0726,-4.48351 -3.02718,-8.61616 -2.91694,-3.88892 -3.7174,3.24695 -8.95497,9.09436 -9.81836,6.53944 -5.06222,26.17745 1.63159,21.83445 9.60641,-6.23271 8.29657,14.1313 13.31763,1.34632 5.25622,-13.38377 -3.85683,-6.21126 -2.96707,-23.65897 z;                             m 440.83891,165.01203 c 0,0 3.3554,-13.36494 -4.77718,-6.11616 -8.13259,7.24878 -1.5924,18.12195 -0.45497,19.59436 1.13742,1.47241 1.47865,6.22942 -5.11841,8.83445 -6.59706,2.60503 7.9815,14.69843 13.31763,1.34632 5.33613,-13.35211 -6.60683,-14.71126 -2.96707,-23.65897 z"/>
+        </path>
+        <g id="coffee-cup">
+            <g id="coffee-cap">
+                <path id="coffee-cap-top" d="m426.11 153.81c15.467-0.6217 30.91-0.62569 46.377 0 0.87027 0.0352 1.3765 0.8327 1.5722 1.8242l1.0402 5.2715c0.20387 1.0331-0.73062 1.9008-1.6382 1.9008h-48.325c-0.90755 0-1.8421-0.8677-1.6382-1.9008l1.0402-5.2715c0.19565-0.99147 0.70187-1.7892 1.5722-1.8242z" style="fill:#60616f"/>
+                <rect id="coffee-cap-bottom" x="420.51" y="160.35" width="57.559" height="6.7628" rx="1.8273" ry="1.8273" style="fill:#535461"/>
+            </g>
+            <g id="coffee-body-with-label">
+                <path id="coffee-body" d="m423.85 167.11 4.9727 60.449c0.21733 2.6423 2.1424 4.5763 4.7852 4.7871 10.957 0.87405 21.295 0.66356 31.373 0 2.6455-0.17418 4.5678-2.1448 4.7852-4.7871l4.9727-60.449z" style="fill:#bdbdbd"/>
+                <g id="coffee-label-with-logo">
+                    <path id="coffee-label" d="m425.2 181.57 2.5488 30.98c14.48 0.89192 28.845 0.96098 43.076 0.0859l2.5488-30.967c-15.897 1.1062-31.965 1.0042-48.174-0.0996z" style="fill:#e0e0e0"/>
+                    <g id="coffee-logo">
+                        <rect id="coffee-logo-slash" transform="rotate(105)" x="66.236" y="-485.89" width="17.681" height="1.2637" rx=".63186" ry=".63186" style="fill:#4fbb82"/>
+                        <g id="coffee-logo-gt">
+                            <rect id="coffee-logo-gt-top" transform="matrix(-.70711 -.70711 -.70711 .70711 0 0)" x="-466.6" y="-186.71" width="10.981" height="1.2069" rx=".60343" ry=".60343" style="fill:#535461"/>
+                            <rect id="coffee-logo-gt-bottom" transform="rotate(135)" x="-186.65" y="-466.67" width="10.981" height="1.2069" rx=".60343" ry=".60343" style="fill:#535461"/>
+                        </g>
+                        <g id="coffee-logo-lt">
+                            <rect id="coffee-logo-lt-bottom" transform="matrix(.70711 .70711 .70711 -.70711 0 0)" x="448.75" y="168.73" width="10.981" height="1.2069" rx=".60343" ry=".60343" style="fill:#535461"/>
+                            <rect id="coffee-logo-lt-top" transform="rotate(-45)" x="168.79" y="448.68" width="10.981" height="1.2069" rx=".60343" ry=".60343" style="fill:#535461"/>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+    <g id="plant-pot" transform="translate(.040995 1.8721)">
+        <g id="plant">
+            <path id="plant-stem" d="m52.899 198.48s-9.7777-42.678 11.838-97.696" style="fill:none;stroke-miterlimit:10;stroke-width:.40542;stroke:#483e37"/>
+            <g>
+                <path id="leaf1-body" d="m63.656 103.61s7.5138-13.369 25.526-9.2554c0 0-14.925 25.35-28.305 17.02z" style="fill:#38a169"/>
+                <path id="leaf1-line" d="m61.134 111.58s19.556-14.912 27.791-17.482" style="fill:none;opacity:.2;stroke-miterlimit:10;stroke:#ffffff"/>
+                <animateTransform attributeName="transform" begin="0s" dur="5s" repeatCount="indefinite" type="rotate" values="0 62 108;10 62 108; 0 62 108"/>
+            </g>
+            <g>
+                <path id="leaf3-body" d="m54.032 138.01s2.7277-14.346 31.547-20.516c0 0-9.1608 29.617-32.937 28.435z" style="fill:#38a169"/>
+                <path id="leaf3-line" d="m52.642 145.77s23.674-25.195 32.937-28.28" style="fill:none;opacity:.2;stroke-miterlimit:10;stroke:#ffffff"/>
+                <animateTransform attributeName="transform" begin="0s" dur="3s" repeatCount="indefinite" type="rotate" values="0 52 147;-5 52 147; 0 52 147"/>
+            </g>
+            <g>
+                <path id="leaf2-body" d="m58.87 117.75s-0.51452-13.626-15.439-17.225c0 0 1.5436 29.823 13.38 24.938z" style="fill:#38a169"/>
+                <path id="leaf2-line" d="m43.379 100.52s14.41 19.539 13.38 24.681" style="fill:none;opacity:.2;stroke-miterlimit:10;stroke:#ffffff"/>
+                <animateTransform attributeName="transform" begin="0s" dur="5s" repeatCount="indefinite" type="rotate" values="0 56 126;5 56 126; 0 56 126"/>
+            </g>
+            <g>
+                <path id="leaf4-body" d="m51.664 154.05s3.088-14.963-14.924-28.846c0 0-19.556 33.268 14.101 39.49z" style="fill:#38a169"/>
+                <path id="leaf4-line" d="m36.689 125.21s7.7192 34.965 13.895 39.593" style="fill:none;opacity:.2;stroke-miterlimit:10;stroke:#ffffff"/>
+                <animateTransform attributeName="transform" begin="0s" dur="10s" repeatCount="indefinite" type="rotate" values="-5 50 166;-15 50 166;-5 50 166"/>
+            </g>
+            <g>
+                <path id="leaf5-body" d="m51.15 174.67s-2.0584-21.185 20.586-25.298c0 0-8.3374 29.566-20.586 34.811z" style="fill:#38a169"/>
+                <path id="leaf5-line" d="m51.098 184.34s12.352-33.937 20.586-34.965" style="fill:none;opacity:.2;stroke-miterlimit:10;stroke:#ffffff"/>
+                <animateTransform attributeName="transform" begin="0s" dur="10s" repeatCount="indefinite" type="rotate" values="5 51 185;10 51 185;5 51 185"/>
+            </g>
+        </g>
+        <path id="plant-pot-body" d="m14.816 185.62h75.652s14.924 19.025-8.2346 47.306h-59.698s-21.615-19.539-7.7191-47.306z" style="fill:#4fbb82"/>
+    </g>
+    <path id="theMotionPath" d="m352.43 124.55c-0.68614-5.4589-1.079-11.463-5.4329-15.119-3.8805-4.8971-8.1387-8.8595-8.191-15.306-4.0752-8.3502-14.485-4.0483-21.238-7.9721-6.8534-4.1632-8.0572-14.011-16.721-16.656-7.5253-2.5025-13.325-10.09-22.177-8.059-8.8464 2.3251-13.413-9.6749-22.122-8.6961-6.0125 0.25559-13.525-1.4755-17.988 3.734-3.8553 4.8726 3.0144 14.588-4.6505 16.783-6.8545-0.03489-12.031-6.1144-18.709-6.4418-7.7786 2.0878-8.8165 11.308-11.927 17.47-2.5202 8.2695 11.572 4.8078 11.524 12.244-1.3779 7.3376 5.8597 9.2721 11.2 11.35 8.4295 4.8294 18.22 5.4673 27.407 7.921 7.2851 2.0391 10.423 13.297 19.191 11.058 12.393-3.7554 25.167-9.0302 38.36-6.3838 13.622 2.1459 25.401 10.026 35.966 18.413 8.0752 3.7396 11.523-8.5671 5.9424-13.052-0.16246-0.42308-0.28644-0.86047-0.43513-1.2886z" style="fill:none"/>
+    <g id="ide">
+        <rect x="139.54" y="38.911" width="184.79" height="102.77" style="fill:#e0e0e0"/>
+        <rect x="139.54" y="29.012" width="184.79" height="9.8995" style="fill:#6d6e7d"/>
+        <g transform="matrix(.65707 0 0 .65707 48.656 11.646)">
+            <circle cx="147.53" cy="33.962" r="2.6332" style="fill:#ff5555"/>
+            <circle cx="162.49" cy="33.962" r="2.6332" style="fill:#5fd35f"/>
+            <circle cx="155.01" cy="33.962" r="2.6332" style="fill:#ffd42a"/>
+        </g>
+        <text x="161.98102" y="45.659023" style="fill:#535461;font-family:sans-serif;font-size:3.4376px;letter-spacing:0px;line-height:1.25;stroke-width:.08594;word-spacing:0px" xml:space="preserve"><tspan x="161.98102" y="45.659023" style="fill:#38a169;font-family:'Fira Code';stroke-width:.08594">&lt;?php</tspan><tspan x="161.98102" y="49.956036" style="fill:#535461;font-family:'Fira Code';stroke-width:.08594"/><tspan x="161.98102" y="54.319744" style="fill:#535461;font-family:'Fira Code';stroke-width:.08594"><tspan style="fill:#38a169;stroke-width:.08594">class</tspan> Developer {</tspan><tspan x="161.98102" y="58.683453" style="fill:#535461;font-family:'Fira Code';stroke-width:.08594">    </tspan><tspan x="161.98102" y="63.047157" style="fill:#535461;font-family:'Fira Code';stroke-width:.08594">    <tspan style="fill:#38a169;stroke-width:.08594">public</tspan> $customer;</tspan><tspan x="161.98102" y="67.34417" style="fill:#535461;font-family:'Fira Code';stroke-width:.08594"/><tspan x="161.98102" y="71.707878" style="fill:#535461;font-family:'Fira Code';stroke-width:.08594">    <tspan style="fill:#38a169;stroke-width:.08594">function</tspan> __construct($customer)</tspan><tspan x="161.98102" y="76.071587" style="fill:#535461;font-family:'Fira Code';stroke-width:.08594">    {</tspan><tspan x="161.98102" y="80.435295" style="fill:#535461;font-family:'Fira Code';stroke-width:.08594">        <tspan style="fill:#38a169;stroke-width:.08594">$this</tspan>-&gt;customer = $customer;</tspan><tspan x="161.98102" y="84.799004" style="fill:#535461;font-family:'Fira Code';stroke-width:.08594">    }</tspan><tspan x="161.98102" y="89.096016" style="fill:#535461;font-family:'Fira Code';stroke-width:.08594"/><tspan x="161.98102" y="93.459724" style="fill:#535461;font-family:'Fira Code';stroke-width:.08594">    <tspan style="fill:#38a169">function</tspan> create_website() {</tspan><tspan x="161.98102" y="97.823425" style="fill:#535461;font-family:'Fira Code';stroke-width:.08594">        $website = new Website();</tspan><tspan x="161.98102" y="102.18713" style="fill:#535461;font-family:'Fira Code';stroke-width:.08594">        $website-&gt;quality = 'high';</tspan><tspan x="161.98102" y="106.55084" style="fill:#535461;font-family:'Fira Code';stroke-width:.08594">        $website-&gt;save();</tspan><tspan x="161.98102" y="110.84785" style="fill:#535461;font-family:'Fira Code';stroke-width:.08594"/><tspan x="161.98102" y="115.21156" style="fill:#535461;font-family:'Fira Code';stroke-width:.08594">        <tspan style="fill:#38a169;stroke-width:.08594">$this</tspan>-&gt;customer</tspan><tspan x="161.98102" y="119.57527" style="fill:#535461;font-family:'Fira Code';stroke-width:.08594">            -&gt;websites()</tspan><tspan x="161.98102" y="123.93898" style="fill:#535461;font-family:'Fira Code';stroke-width:.08594">            -&gt;add($website);</tspan><tspan x="161.98102" y="128.30269" style="fill:#535461;font-family:'Fira Code';stroke-width:.08594">    }</tspan><tspan x="161.98102" y="132.6664" style="fill:#535461;font-family:'Fira Code';stroke-width:.08594">    </tspan><tspan x="161.98102" y="137.03011" style="fill:#535461;font-family:'Fira Code';stroke-width:.08594">}</tspan></text>
+        <g>
+            <rect x="319.87" y="38.911" width="4.4591" height="102.77" style="fill:#cdcdcd"/>
+            <rect x="319.87" y="44.749" width="4.4591" height="18.659" style="fill:#979797"/>
+            <g>
+                <rect x="319.87" y="38.911" width="4.459" height="4.459" style="fill:#b4b4b4"/>
+                <path d="m320.58 42.349 1.5152-2.4246 1.5147 2.4246z" style="fill:#dcdcdc"/>
+            </g>
+            <g transform="matrix(1 0 0 -1 0 180.59)">
+                <rect x="319.87" y="38.911" width="4.459" height="4.459" style="fill:#b4b4b4"/>
+                <path d="m320.58 42.349 1.5152-2.4246 1.5147 2.4246z" style="fill:#dcdcdc"/>
+            </g>
+        </g>
+        <g>
+            <rect x="139.54" y="38.911" width="12.19" height="102.77" style="fill:#333333"/>
+            <g>
+                <circle cx="145.63" cy="47.144" r="3.5677" style="fill:#4d4d4d"/>
+                <rect x="142.06" y="53.522" width="7.1351" height="7.1351" style="fill:#4d4d4d"/>
+                <rect x="142.06" y="63.467" width="7.1351" height="7.1351" style="fill:#4d4d4d"/>
+                <rect x="142.06" y="73.412" width="7.1351" height="7.1351" style="fill:#4d4d4d"/>
+            </g>
+        </g>
+    </g>
+    <g>
+        <path d="m0 0v10.876l2.7091-2.7091 2.0493 3.9087 1.7594-0.69976-1.8394-3.7387h3.1989z" style="fill:#ffffff;stroke-linejoin:round;stroke-width:.3393px;stroke:#000000"/>
+        <animateMotion dur="10s" repeatCount="indefinite">
+            <mpath xlink:href="#theMotionPath"/>
+        </animateMotion>
+    </g>
+</svg>
